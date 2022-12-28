@@ -4,14 +4,8 @@ const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
 var bodyParser = require("body-parser");
 
-const { join } = require("path");
-
-const User = require("./model/User");
-const UserData = require("./model/UserData");
 
 app.use(cors());
 app.use(express.json());
