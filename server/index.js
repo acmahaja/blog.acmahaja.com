@@ -23,7 +23,7 @@ mongoose
   .connect(
     process.env.NODE_ENV === "production"
       ? process.env.DATABASE
-      : "mongodb://0.0.0.0:27017/blog.acmahaja.com"
+      : "mongodb://0.0.0.0:27017/blog-acmahaja-com"
   )
   .then(() => {
     console.log(`🌿[Database]: Connected to database`);
