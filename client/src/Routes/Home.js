@@ -7,7 +7,7 @@ import '../css/Dark/Home.css'
 function Home() {
     return (
         <div className="Light Home">
-            
+            Home
         </div>
     )
 }
