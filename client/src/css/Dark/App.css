@@ -1,0 +1,6 @@
+.Dark.App {
+    background-color: #000000;
+    opacity: 1;
+    background-image: radial-gradient(#ffffff 1px, #000000 1px);
+    background-size: 20px 20px;
+}

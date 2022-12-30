@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+    --grey-22: 34, 34, 34;
+    --accent-color: 234, 76, 137;
+    --light-grey: 222, 222, 222;
+}
+
+
 html {
     height: 100vh;
     min-height: 100vh;
     width: 100vw;
     max-width: 100vw;
-    background: yellow;
     margin: 0px;
     padding: 0px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body, #root {

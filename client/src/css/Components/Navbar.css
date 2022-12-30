@@ -21,7 +21,7 @@
     width: 100%;
     height: calc(100% - 7px);
     box-sizing: border-box;
-    padding: 0px 115px;
+    padding: 0px 100px;
 
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;   
@@ -54,4 +54,47 @@
 .helper-tools {
     justify-self: end;
     align-self: center;
+    width: fit-content;
+    height: 100%;
+    width: 27ch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.helper-tools form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    outline: none;   
+}
+
+.helper-tools input:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+    background-color: red;
+}
+
+
+.helper-tools button[data-icon="search"]{
+    width: 1rem;
+    height: 1rem;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.helper-tools button[data-icon="settings"]{
+    width: 1rem;
+    height: 1rem;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    padding: 0px;
+
 }

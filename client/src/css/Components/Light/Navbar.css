@@ -1,0 +1,31 @@
+.Navbar {
+  background: rgb(var(--grey-22));
+  color: rgb(var(--light-grey));
+}
+
+.Light .brand b {
+  background: linear-gradient(
+    227.1deg,
+    rgb(var(--accent-color)) 19.14%,
+    rgba(var(--accent-color), 0.5) 81.38%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.Light .helper-tools input {
+    border: none;
+    background-color: red;
+}
+
+
+.Light .helper-tools button[data-icon="search"]{
+    background-image: url("../../../../assets/icons/search-light.svg");
+}
+
+.Light .helper-tools button[data-icon="settings"]{
+    
+    background-image: url("../../../../assets/icons/gear-light.svg");
+}

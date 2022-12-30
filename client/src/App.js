@@ -4,16 +4,18 @@ import { useState, useEffect } from "react";
 
 import Home from "./Routes/Home";
 
-import './App.css'
+import './css/App.css'
+import './css/Light/App.css'
+import './css/Dark/App.css'
 
 import Navbar from "./Components/Navbar";
 
 function App() {
  
   return (
-    <div className="App">
-      <Navbar />
+    <div className="Dark App">
       <BrowserRouter>
+      <Navbar />
         <Routes>
             <Route index path="/" element={<Home/>} /> 
         </Routes>
