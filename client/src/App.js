@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 
 import Home from "./Routes/Home";
 
+import './App.css'
+
 function App() {
  
   return (
